@@ -26,6 +26,7 @@ public class PlayerMonetaryAccounts {
             if (this.accounts.size() == 0) {
 
                 this.accounts.add(account);
+                return true;
             }
 
             for (MonetaryAccount acc : this.accounts) {
